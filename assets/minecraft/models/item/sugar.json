@@ -1,0 +1,11 @@
+{
+    "parent":"minecraft:item/generated",
+    "textures":{
+        "layer0":"item/sugar"
+    },
+    "overrides":[
+        {"predicate":{"custom_model_data":1400001}, "model":"minecraft:item/gunpowder"},
+        {"predicate":{"custom_model_data":1400002}, "model":"minecraft:item/redstone"},
+        {"predicate":{"custom_model_data":1400003}, "model":"methacraft:item/gavrix_salt"}
+    ]
+}
